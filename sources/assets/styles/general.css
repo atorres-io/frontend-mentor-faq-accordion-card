@@ -1,3 +1,16 @@
+body {
+  font-size: 12px;
+  padding: var(--space-bg);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  padding: var(--space-bg);
+}
+
 h1 {}
 h2 {}
 h3 {}
@@ -11,8 +24,15 @@ h2.display-2 {}
 
 h3.display-3 {}
 
-a {}
+a {
+  font-weight: var(--weight-bold);
+  color: var(--color-white);
+}
 
-span {}
+span {
+  font-weight: var(--weight-normal);
+  font-size: 12px;
+  line-height: 1.2rem;
+}
 
 p {}

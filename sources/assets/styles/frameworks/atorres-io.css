@@ -15,7 +15,7 @@
  * ==================== */
 
 html {
-	background-color: var(--color-background);
+	background: var(--color-background);
 	scroll-behavior: smooth;
 	-webkit-tap-highlight-color: transparent;
 }
@@ -197,7 +197,7 @@ a {
  * UTILITIES
  * ==================== */
 
- .elastic {
+.elastic {
 	-webkit-animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }

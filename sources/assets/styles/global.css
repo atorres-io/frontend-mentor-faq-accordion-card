@@ -1,7 +1,19 @@
 :root {
-	--color-background: #ffffff;
+	--color-white: #ffffff;
+	--color-background: linear-gradient(to bottom, #af67e9 0%, #6565e7 100%);
+	--color-soft-red: #f47c57;
 	--color-dark-grayish-blue: #787887;
+	--color-very-dark-grayish-blue: #4a4b5e;
+	--color-dark-desaturated-blue: #1d1e35;
+	--color-light-grayish-blue: #e7e7e9;
 
+	--space-sm: 0.5rem;
+	--space-md: 1rem;
+	--space-bg: 1.5rem;
+	--space-xs: 2rem;
+	--space-xl: 2.5rem;
+
+	--font-family: 'Kumbh Sans', sans-serif;
 	--weight-normal: 400;
 	--weight-bold: 700;
 }
