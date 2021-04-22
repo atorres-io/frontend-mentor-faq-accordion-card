@@ -1,0 +1,22 @@
+{
+  "name": "frontend-mentor-faq-accordion-card",
+  "version": "1.0.0",
+  "description": "Frontend Mentor challenge on a website",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atorres-io/frontend-mentor-faq-accordion-card.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "Flexbox",
+    "Framework methodology",
+    "ITCSS",
+  ],
+  "author": "Alejandro Torres",
+  "bugs": {
+    "url": "https://github.com/atorres-io/frontend-mentor-faq-accordion-card/issues"
+  },
+  "homepage": "https://github.com/atorres-io/frontend-mentor-faq-accordion-card#readme"
+}
