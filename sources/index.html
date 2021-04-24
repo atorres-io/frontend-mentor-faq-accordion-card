@@ -1,10 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-		<meta name='theme-color' content='#9393E6' />
+		<meta name='theme-color' content='#f47c57' />
     <meta name='keywords' content='keyword, second keyword, another keyword, last keyword'>
 		<meta name='autor' content='Alejandro Torres'>
     <meta name='description' content='FAQ accordion card of Frontend Mentor Challenge'>
@@ -20,8 +21,40 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
+    <main class='flex row-nowrap md-column-nowrap row-h-center md-column-h-center row-v-center md-column-v-center'>
+      <section class='position-relative visual width-50 md-width-100 height-100 md-height-20'></section>
+      <section class='faq width-50 md-width-100 height-100 md-height-80'>
+        <h1 class='md-text-center'>FAQ</h1>
+        <input type='radio' id='faqA' name='faq' />
+        <label for='faqA'>
+          <h2>How many team members can I invite?</h2>
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+        </label>
+        <input type='radio' id='faqB' name='faq' checked />
+        <label for='faqB'>
+          <h2>What is the maximum file upload size?</h2>
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </label>
+        <input type='radio' id='faqC' name='faq' />
+        <label for='faqC'>
+          <h2>How do I reset my password?</h2>
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+        </label>
+        <input type='radio' id='faqD' name='faq' />
+        <label for='faqD'>
+          <h2>Can I cancel my subscription?</h2>
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </label>
+        <input type='radio' id='faqE' name='faq' />
+        <label for='faqE'>
+          <h2>Do you provide additional support?</h2>
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </label>
+      </section>
+    </main>
+
     <footer>
-      <span class='text-white'>Challenge by <a class='link' href='https://www.frontendmentor.io?ref=challenge' target='_blank'>Frontend Mentor</a>. Coded by <a class='link' href='https://www.frontendmentor.io/profile/atorres-io' target='_blank'>Alejandro Torres</a>.</span>
+      <span class='text-white'>Challenge by <a class='link' href='https://www.frontendmentor.io?ref=challenge' target='_blank'>Frontend Mentor</a>.<br class='display-none md-display-block'> Coded by <a class='link' href='https://www.frontendmentor.io/profile/atorres-io' target='_blank'>Alejandro Torres</a>.</span>
     </footer>
   </body>
 </html>
