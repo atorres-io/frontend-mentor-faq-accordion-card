@@ -1,1 +1,36 @@
 /* Best Mobile Preview: 375px :: Best Desktop Preview: 1440px */
+
+@media screen and (max-width: 850px) {
+  .visual::after {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: var(--space-omg) var(--space-bg) var(--space-bg) var(--space-bg);
+  }
+
+  .visual {
+    min-height: calc(calc(20 * 590px) / 100); /* 20% of 590 */
+    background: none;
+  }
+
+  .visual::after {
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 300%;
+    animation: none;
+    background:  
+      url(../images/illustration-woman-online-mobile.svg) no-repeat 48% 13% / 220px,
+      url(../images/bg-pattern-mobile.svg) no-repeat 50% 40% / 200px;
+    pointer-events: none;
+  }
+
+  .faq {
+    min-height: calc(calc(80 * 590px) / 100); /* 80% of 590 */
+    padding: 0 var(--space-bg);
+  }
+}

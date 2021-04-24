@@ -1,28 +1,42 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 12px;
   padding: var(--space-bg);
 }
 
+main {
+  width: calc(100% - var(--space-bg));
+  height: auto;
+  max-width: 920px;
+  min-height: 590px;
+  background-color: var(--color-white);
+  border-radius: var(--radius-xs);
+  box-shadow: 0 16px 40px -2px rgb(0 0 0 / 28%);
+  transition: height 800ms ease;
+}
+
 footer {
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   text-align: right;
   padding: var(--space-bg);
 }
 
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
+h2 {
+  line-height: 50px;
+  font-size: clamp(0.8rem, 0.8rem, 1rem);
+  font-weight: var(--weight-normal);
+  color: var(--color-dark-desaturated-blue);
+}
 
-h1.display-1 {}
-
-h2.display-2 {}
-
-h3.display-3 {}
+h1 {
+  font-size: 35px;
+  font-weight: var(--weight-bold);
+  color: var(--color-dark-desaturated-blue);
+}
 
 a {
   font-weight: var(--weight-bold);
@@ -31,8 +45,14 @@ a {
 
 span {
   font-weight: var(--weight-normal);
+  color: var(--color-very-dark-grayish-blue);
   font-size: 12px;
   line-height: 1.2rem;
 }
 
-p {}
+p {
+  font-weight: var(--weight-normal);
+  color: var(--color-dark-grayish-blue);
+  font-size: 12px;
+  line-height: 1.2rem;
+}

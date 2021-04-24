@@ -9,9 +9,16 @@
 
 	--space-sm: 0.5rem;
 	--space-md: 1rem;
-	--space-bg: 1.5rem;
+	--space-bg: 1.35rem;
 	--space-xs: 2rem;
 	--space-xl: 2.5rem;
+	--space-omg: 10rem;
+
+	--radius-sm: 8px;
+	--radius-md: 16px;
+	--radius-bg: 24px;
+	--radius-xs: 32px;
+	--radius-full: 30rem;
 
 	--font-family: 'Kumbh Sans', sans-serif;
 	--weight-normal: 400;
