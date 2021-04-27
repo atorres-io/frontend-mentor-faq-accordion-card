@@ -1,5 +1,7 @@
 # Frontend Mentor - FAQ accordion card solution
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b96ccb51-5337-4278-8a66-6a492814c9c2/deploy-status)](https://app.netlify.com/sites/gallant-hodgkin-abb822/deploys)
+
 This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
